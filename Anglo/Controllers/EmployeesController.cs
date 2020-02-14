@@ -15,7 +15,7 @@ using Microsoft.Extensions.Logging;
 
 namespace AngloRota.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("AngloRota")]
