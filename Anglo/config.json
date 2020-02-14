@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "AngloRota": "Server=tcp:anglorota.database.windows.net,1433;Initial Catalog=AngloRota;Persist Security Info=False;User ID=amyta;Password=Carrere04;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}

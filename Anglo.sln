@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anglo", "Anglo\Anglo.csproj", "{DBA22504-047E-47E0-95B8-E7D51DF14619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBA22504-047E-47E0-95B8-E7D51DF14619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA22504-047E-47E0-95B8-E7D51DF14619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA22504-047E-47E0-95B8-E7D51DF14619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA22504-047E-47E0-95B8-E7D51DF14619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {041A75A4-DDBB-487C-AE7E-98AD95B45BCF}
+	EndGlobalSection
+EndGlobal
