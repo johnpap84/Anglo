@@ -17,7 +17,7 @@ namespace AngloRota.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("AngloRota")]
-    //[Authorize]
+    [Authorize]
     public class DepartmentController : ControllerBase
     {
         private readonly IRepository _repository;
