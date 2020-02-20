@@ -16,7 +16,7 @@ namespace AngloRota.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("AngloRota")]
-    //[Authorize]
+    [Authorize]
     public class ShiftController : ControllerBase
     {
         private IRepository _repository;
