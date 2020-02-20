@@ -45,17 +45,11 @@ namespace AngloRota.Controllers
         {
             try
             {
-                if (model.UserName == "John" && model.Password == "ca")
-                {
-                    //User newUser = _mapper.Map<UserModel>(model);
-                    //_repository.Add(model);
-                    //await _repository.SaveChangesAsync();
-                }
                 var user = await _userManager.FindByNameAsync(model.UserName);
                 if (user == null)
                 {
-                    //if (_hasher.VerifyHashedPassword(user, user.PasswordHash, model.Password) == PasswordVerificationResult.Success)
-                    //{
+                    if (_hasher.VerifyHashedPassword(user, user.PasswordHash, model.Password) == PasswordVerificationResult.Success)
+                    {
                     var claims = new[]
                     {
                             new Claim (JwtRegisteredClaimNames.Sub, model.UserName),
@@ -77,7 +71,7 @@ namespace AngloRota.Controllers
                         token = new JwtSecurityTokenHandler().WriteToken(token),
                         expiration = token.ValidTo
                     });
-                    //}
+                    }
                 }
 
             }
