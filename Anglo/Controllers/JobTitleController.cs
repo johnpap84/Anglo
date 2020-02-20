@@ -17,7 +17,7 @@ namespace AngloRota.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("AngloRota")]
-    //[Authorize]
+    [Authorize]
     public class JobTitleController : ControllerBase
     {
         private IRepository _repository;
